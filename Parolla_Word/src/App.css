@@ -112,4 +112,119 @@ body.dark-mode .help-icon {
   color: #ddd;
 }
 
+body.dark-mode .secondbox{
+  display: flex;
+  width: 440px;
+  padding: 12px 12px;
+  background-color: #3b3b3b;
+  justify-content: space-between;
+  color: #dbdbdb;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+body.dark-mode .firstbox{
+  display: flex;
+  width: 440px;
+  padding: 12px 12px;
+  background-color: #3b3b3b;
+  justify-content: space-between;
+  color: #dbdbdb;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+body.dark-mode .logo{
+  background-color: #3b3b3b;
+  height: 128px;
+  width: 128px;
+  border-radius: 100px;
+}
+
+body.dark-mode .logo h1{
+  font-size: 64px;
+  padding-top: 24px;
+  color: #f7f7f7;
+  
+}
+
 /* ======== Dark-Mode-Settings ======== */
+
+
+
+/* ======== Main Screen ======== */
+
+.logo{
+  background-color: #D9D9D9;
+  height: 128px;
+  width: 128px;
+  border-radius: 100px;
+}
+
+.logo h1{
+  font-size: 64px;
+  padding-top: 24px;
+  color: #393939;
+  
+}
+
+.mainscreen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 54vh;
+}
+
+.mainarea{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.gamemode{
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  gap: 24px;
+}
+
+.firstbox{
+  display: flex;
+  width: 440px;
+  padding: 12px 12px;
+  background-color: #D9D9D9;
+  justify-content: space-between;
+  color: #585858;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.secondbox{
+  display: flex;
+  width: 440px;
+  padding: 12px 12px;
+  background-color: #D9D9D9;
+  justify-content: space-between;
+  color: #585858;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#spaciel-one{
+  color: rgb(255, 0, 64)
+}
+
+#spaciel-two{
+  color: rgb(255, 123, 0)
+}
+
+
+/* ======== Main Screen ======== */
