@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
+  const navigate = useNavigate();
 
   const toggleDarkMode = () => {
     setDarkMode(prev => !prev);
@@ -10,7 +12,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="left-side">
+      <div className="left-side" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
         <h2>Lexora</h2>
       </div>
 

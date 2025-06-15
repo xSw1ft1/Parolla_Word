@@ -1,11 +1,13 @@
 import React from 'react'
 
-function Alphabe() {
+function Alphabet() {
   return (
-    <div>
+    <div className="mainscreen">
+
+
         
     </div>
   )
 }
 
-export default Alphabe
+export default Alphabet
